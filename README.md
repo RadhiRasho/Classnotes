@@ -15,3 +15,8 @@ $$
 \Large
 x(t) = \frac{1}{2\pi} \int_{-\infty}^{+\infty} X(\omega)e^{j{\omega}t} d\omega
 $$
+
+
+# Resources
+
+- [Latex](https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf) - Useful resource for LaTeX symbols and math notation
