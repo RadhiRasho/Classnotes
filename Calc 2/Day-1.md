@@ -73,19 +73,19 @@ Where:
 
 ### Derivatives of Common Functions
 
-| Initial          | Derivative               |
-| ---------------- | ------------------------ |
-| $\large x$       | $\large 1$               |
-| $\large x^2$     | $\large 2x$              |
-| $\large x^3$     | $\large 3x^2$            |
-| $\large e^x$     | $\large e^x$             |
-| $\large a^x$     | $\large a^x \ln(a)$      |
+| Initial      | Derivative          |
+| ------------ | ------------------- |
+| $\large x$   | $\large 1$          |
+| $\large x^2$ | $\large 2x$         |
+| $\large x^3$ | $\large 3x^2$       |
+| $\large e^x$ | $\large e^x$        |
+| $\large a^x$ | $\large a^x \ln(a)$ |
 
 ### Logarithmic Derivatives
 
-| Initial          | Derivative               |
-| ---------------- | ------------------------ |
-| $\large \ln(x)$  | $\large \frac{1}{x}$     |
+| Initial            | Derivative                 |
+| ------------------ | -------------------------- |
+| $\large \ln(x)$    | $\large \frac{1}{x}$       |
 | $\large \log_a(x)$ | $\large \frac{1}{x\ln(a)}$ |
 | $\large \log_a(x)$ | $\large \frac{1}{x\ln(a)}$ |
 
