@@ -1,36 +1,36 @@
 # Day 1: Calculus $\Iota$ Review
 
-## Derivative Rules
+## Derivative Rules for Basic Functions
 
-### Power Rule
+### Power Rule For Derivatives
 
 $$
 \large
 \frac{d}{dx} x^n = nx^{n-1}
 $$
 
-### Constant Rule
+### Constant Rule For Derivatives
 
 $$
 \large
 \frac{d}{dx} C = 0, \nobreakspace C = \text{any constant}
 $$
 
-### Sum Rule
+### Sum Rule For Derivatives
 
 $$
 \large
 \frac{d}{dx} f(x) + g(x) = f'(x) + g'(x)
 $$
 
-### Product Rule
+### Product Rule For Derivatives
 
 $$
 \large
 \frac{d}{dx} (f(x)g(x)) = f'(x)g(x) + f(x)g'(x)
 $$
 
-### Quotient Rule
+### Quotient Rule For Derivatives
 
 The Quotient Rule is used to find the derivative of a function that is the ratio of two differentiable functions.
 
@@ -50,7 +50,7 @@ Where:
 
 Remember to apply the Quotient Rule carefully, ensuring that you correctly identify and differentiate the numerator and denominator functions.
 
-### Chain Rule
+### Chain Rule For Derivatives
 
 The Chain Rule is used to find the derivative of composite functions.
 
@@ -99,3 +99,33 @@ Where:
 | $\large \cot(x)$ | $\large -\csc^2(x)$      |
 | $\large \sec(x)$ | $\large \sec(x)\tan(x)$  |
 | $\large \csc(x)$ | $\large -\csc(x)\cot(x)$ |
+
+## Integrals
+
+### Indefinite Integrals
+
+An indefinite integral is a function that represents the anti-derivative of another function. It is used to find the general form of the anti-derivative of a function.
+
+The indefinite integral of a function $\large f(x)$ is denoted by $\large \int f(x) \, dx$.
+
+### Definite Integrals
+
+A definite integral is a number that represents the signed area under the curve of a function between two points. It is used to find the exact area under the curve of a function over a given interval.
+
+The definite integral of a function $\large f(x)$ from $\large a$ to $\large b$ is denoted by $\large \int_{a}^{b} f(x) \, dx$.
+
+## Integration Rules for Basic Functions
+
+### Power Rule for Integration
+
+$$
+\large
+\int x^n \, dx = \frac{x^{n+1}}{n+1} + C, \nobreakspace n \neq -1
+$$
+
+### Constant Rule for Integration
+
+$$
+\large
+\int C \, dx = Cx + C, \nobreakspace C = \text{any constant}
+$$
