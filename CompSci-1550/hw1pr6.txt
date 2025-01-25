@@ -1,0 +1,80 @@
+// CSCI 1550: HW 1, Problem 6
+// Filename: hw1pr6.txt 
+// Name: Radhi Rasho
+//
+
+
+// Exercise #0: Baking brownies ... completely legal, I promise!
+utilize kitchen_accessories
+// pseudo-code intent: it's like including external modules/libraries 
+// current content: enables the use of kitchen items like bowl, mixer, oven, etc.
+
+// declarations
+egg myEggs
+oil myOil
+water myWater
+powderedIngredient browniesBoxMix
+batter brownieBatter
+brownie myBrownies
+double cookTime
+double ovenTemp
+
+// initialization
+myEggs = 2
+myWater = 3
+myOil = 8 // liquid measure in tbsp
+browniesBoxMix = 18.3 // 18.3 oz box of brownie mix
+cookTime = 20 // minutes
+ovenTemp = 350 // degrees Fahrenheit
+
+// Driver code
+wetCombined = kitchen_accessories.Blend(myEggs, myOil, myWater) // blend the eggs, oil, and water
+brownieBatter = kitchen_accessories.Mix(wetCombined, browniesBoxMix) // mix the wet ingredients with the brownie mix
+myBrownies = kitchen_accessories.Bake(brownieBatter, ovenTemp, cookTime) // bake the brownies for 20 minutes at 350 degrees Fahrenheit
+
+// Output the brownies
+kitchen_accessories.Serve(myBrownies) // serve the brownies
+
+// Exercise 1: Sock Sorting (life skills 101)
+
+// Part 1: Conceptualization
+// pseudo-code intent: sorting socks based on color and pattern to pair them up. The main issue here would be how to go about having multiple 
+// people accessing the same bundle together, and how to make sure that the socks are paired correctly. 
+// This seems like a mutex problem where only one person can access the bundle at a time to avoid conflicts. 
+// Reminds me of the dining philosophers problem, only it's two people with a bundle of socks. 
+// The challenge: ensuring that the socks are paired correctly and that the process is efficient and also that there aren't conflicts when multiple people are accessing the bundle.
+
+// Part 2: Reading pseudo-code
+// First creating/declaring types
+
+// Color Types:
+type Red  // pseudo-code for creating red-type
+type White // pseudo-code for creating white-type
+
+// Sock Type:
+type Sock
+
+// Sock pair Type:
+type Pair
+
+// declaring Sock and Pair variables/values:
+Sock sock1, sock2, sock3, sock4
+Pair pair1, pair2, pair3
+
+// from_basket() is a function that represents (randomly) grabbing a sock from the basket
+sock1 = from_basket() : Sock with Red
+sock2 = from_basket() : Sock with Red
+sock3 = from_basket() : Sock with White
+sock4 = from_basket() : Sock with White
+
+// Idea: + operator takes in 2 Sock objects (potentially "decorated" by a color type) and outputs a Pair-object ONLY if the objects MATCH!
+pair1 = sock1 + sock2 : Pair with Red    // success, both are red socks!
+pair2 = sock3 + sock4 : Pair with White  // success, both are white socks!
+pair3 = sock1 + sock3                    // FAILS ... mismatched socks!
+
+// Acomplishment: This code defines two types of socks (red and white) and a sock pair. It then randomly selects socks from a basket and pairs them based on color.
+// Does it solve the problem?: No, the code only accounts for one person, and also two different colors. Where as there is the possibility of multiple different colors and multiple people accessing the basket.
+// Additional Elements?: More colors, more people, and a mutex to make sure only one person accesses the basket/bundle at a time.
+
+// Part 3: Writing up the pseudo-code for sock sorting
+integer sock_color

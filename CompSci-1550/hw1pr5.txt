@@ -1,0 +1,121 @@
+// CSCI 1550: HW 1, Problem 5 
+// Filename: hw1pr5.txt 
+// Name: Radhi Rasho
+//
+
+
+// Exercise 1: Incrementing a variable ... a big reason WHY declaring variables is awesome!
+
+// PART 1: Write out the commands required to solve for the  final height, y_f, after 5 seconds have elapsed (i.e. t = 5 seconds).    
+
+float y_i // float for percision
+float v_i // float for percision
+float a_y // float for percision
+integer t
+float y_f // float for percision
+
+y_i = 0
+v_i = 23.2
+a_y = 9.8
+t = 5
+
+y_f = y_i + v_i * t - ((0.5) * a_y * t * t) // using 0.5 instead of 1/2 to avoid integer division which would result in 0 causing the result to be different than expected
+
+Put y_f to output // outpus -6.5
+
+// PART 2: Update (increment) your value of time ... so that you're considering what the position will look like 2 more seconds into the future (i.e. the time is now t + 2) .  Do NOT directly use the expression t  = 7.  Use the updated value of the time to determine an updated value for the final height.
+
+// Code up above + the following code
+t = t + 2
+
+y_f = y_i + v_i * t - ((0.5) * a_y * t * t) // using 0.5 instead of 1/2 to avoid integer division which would result in 0 causing the result to be different than expected
+
+Put y_f to output // outputs -77.7
+
+PART 3: Suppose in Python we accidentally made a typo and updated our time in the following way:
+IN [2]: tt = t + 2
+IN [3]: tt
+OUT [3]: 7
+
+Part 3a: How many time variables would we then have in Python? 
+    We would have two different variables in Python. One would be t and the other would be tt. Where t is equal to 5 and tt is equal to 7.
+
+Part 3b: What happens in Coral if you made the same typo mistake?
+    In Coral, as the variable tt doesn't exist, it would throw an error and the program would not run. The error is as follows:
+        "Line 17: Unknown word 'tt'. Maybe you meant 't', 'to', or something different?"
+
+Part 3c: Comment upon the advantage declaring has (in Coral) over how things work in Python.
+    In Coral any undeclare variables are flagged right a way and lets you know that something isn't right or something isn't meant to be there. 
+    In Python, it doesn't flag the undeclared variable and it creates a new variable with the name that was mistyped. This can lead to confusion and errors 
+    in the code as wells as unnecessary declarations.
+
+Exercise 2:  (Control-structures in Coral! AKA conditionals)
+
+Code for context:
+integer x
+integer y
+integer max
+
+x = Get next input
+y = Get next input
+
+if x > y
+   max = x
+else
+   max = y
+
+Put max to output
+
+In the code above, the program declares three varaibles (x, y and max). I then asks the user for input for two of the variables (x and y). I then checks which of the variables is greater, between x and y. 
+If the user inputs x as the greater number, then the program would set the max variable to x, and vice versa for y. The program then outputs the max variable.
+
+
+Exercise 3:  (Static or Kinetic friction)
+
+If block is in static equalibrium, then we have the following equation:
+P - F = 0
+N - 500 = 0
+
+P - Size of push
+N - Normal force
+u_s - Coefficient of static friction, set to 0.3
+
+// Maximum possible friction force is given by:
+F_max = u_s * N
+
+if the Value of F from our equation of static equilibrium is greater than F_max, then this implies that the object cannot be in static equilibrium. instead it must be experiencing kinetic friction. Kinetic friction is given by:
+
+F_k = u_k * N
+
+u_k - Coefficient of kinetic friction, set to 0.2
+
+// Task: Write a single Coral program that will determine whether the block is in static or kinetic equilibrium.
+
+float P
+float N
+float u_s
+float u_k
+float F_max
+float F
+
+u_s = 0.3
+u_k = 0.2
+N = 500
+
+P = Get next input
+
+F_max = u_s * N
+
+if P <= F_max
+   F = P
+else
+   F = u_k * N
+
+Put F to output
+
+Test Cases: 
+    If P = 50 N, then F = 50 N - Verified
+    If P = 100 N, then F = 100 N - Verified
+    If P = 125 N, then F = 125 N - Verified
+    If P = 200 N, then F = 100 N - Verified
+    If P = 400 N, then F = 100 N - Verified
