@@ -129,3 +129,81 @@ $$
 \large
 \int C \, dx = Cx + C, \nobreakspace C = \text{any constant}
 $$
+
+## Integration Rules for Area of Solids
+
+### Area Between Two Curves
+
+The area between two curves is the region enclosed by the graphs of two functions. To find the area between two curves, you need to determine the points of intersection and integrate the difference between the two functions over the interval.
+
+The area between two curves $\large f(x)$ and $\large g(x)$ from $\large a$ to $\large b$ is given by:
+
+$$
+\LARGE
+\int_{a}^{b} [f(x) - g(x)] \, dx
+$$
+
+### Volume of Revolution
+
+The volume of revolution is the volume of a solid formed by rotating a region enclosed by two functions around a given axis. To find the volume of revolution, you need to determine the points of intersection and integrate the area of the cross-sections over the interval.
+
+The volume of revolution of a region between $\large f(x)$ and $\large g(x)$ from $\large a$ to $\large b$ rotated around the $\large x$-axis is given by:
+
+$$
+\LARGE
+\pi \int_{a}^{b} [f(x)^2 - g(x)^2] \, dx
+$$
+
+The volume of revolution of a region between $\large f(x)$ and $\large g(x)$ from $\large a$ to $\large b$ rotated around the $\large y$-axis is given by:
+
+$$
+\LARGE
+\pi \int_{a}^{b} [f(y)^2 - g(y)^2] \, dy
+$$
+
+### Arc Length
+
+The arc length is the length of a curve between two points. To find the arc length, you need to integrate the square root of the sum of the squares of the derivatives of the functions over the interval.
+
+The arc length of a curve $\large f(x)$ from $\large a$ to $\large b$ is given by:
+
+$$
+\LARGE
+\int_{a}^{b} \sqrt{1 + [f'(x)]^2} \, dx
+$$
+
+### Surface Area of Revolution
+
+The surface area of revolution is the surface area of a solid formed by rotating a curve around a given axis. To find the surface area of revolution, you need to integrate the arc length of the curve over the interval.
+
+The surface area of revolution of a curve $\large f(x)$ from $\large a$ to $\large b$ rotated around the $\large x$-axis is given by:
+
+$$
+\LARGE
+2\pi \int_{a}^{b} f(x) \sqrt{1 + [f'(x)]^2} \, dx
+$$
+
+The surface area of revolution of a curve $\large f(x)$ from $\large a$ to $\large b$ rotated around the $\large y$-axis is given by:
+
+$$
+\LARGE
+2\pi \int_{a}^{b} x \sqrt{1 + [f'(x)]^2} \, dx
+$$
+
+### Triangle Area of Revolution
+
+The triangle area of revolution is the area of a solid formed by rotating a triangle around a given axis. To find the triangle area of revolution, you need to integrate the area of the cross-sections over the interval.
+
+The triangle area of revolution of a triangle with base $\large b$ and height $\large h$ rotated around the $\large x$-axis is given by:
+
+$$
+\LARGE
+\frac{1}{2} \pi \int_{a}^{b} [f(x)]^2 \, dx
+$$
+
+The triangle area of revolution of a triangle with base $\large b$ and height $\large h$ rotated around the $\large y$-axis is given by:
+
+$$
+\LARGE
+\frac{1}{2} \pi \int_{a}^{b} [f(y)]^2 \, dy
+$$
