@@ -1,0 +1,61 @@
+# CSCI1550 hw1pr3
+# Filename: hw1pr3.txt
+# Name: Radhi Rasho
+
+
+# Exercise 1: Warm-up: Binary to Decimal
+
+// The following is a snippet of code from the Python REPL that demonstrates how to convert a binary number to a decimal number.
+
+Python 3.12.8 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:31:09) [GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x = 0b101010
+>>> x
+42
+>>> 
+
+// This snippet of code is for the Task
+
+Python 3.12.8 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:31:09) [GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x = 0b11101
+>>> x
+29
+>>> x = 0b00000111
+>>> x
+7
+>>> x = 0b111
+>>> x
+7
+>>> x = 0b11100111
+>>> x
+231
+>>> 
+
+// Exercise 2:   Other bases to Decimal
+
+// Task: Convert the following numbers to decimal:
+// A. 2fab_16 to decimal
+// B. 417_8 to decimal
+// C. 21201_3 to decimal
+
+// A. 2fab_16 to decimal
+Python 3.12.8 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:31:09) [GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x = 0x2fab
+>>> x
+12203
+
+// B. 417_8 to decimal
+Python 3.12.8 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:31:09) [GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x = 0o417
+>>> x
+279
+
+// C. 21201_3 to decimal
+Python 3.12.8 | packaged by Anaconda, Inc. | (main, Dec 11 2024, 16:31:09) [GCC 11.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x = 0b21201
+>>> x
+33

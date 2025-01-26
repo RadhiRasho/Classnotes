@@ -77,4 +77,55 @@ pair3 = sock1 + sock3                    // FAILS ... mismatched socks!
 // Additional Elements?: More colors, more people, and a mutex to make sure only one person accesses the basket/bundle at a time.
 
 // Part 3: Writing up the pseudo-code for sock sorting
-integer sock_color
+
+// utilize sock_basket // include the sock basket module
+// sock_basket.from_basket() // function to get a sock from the basket
+// sock_basket.put_pair() // function to put a pair back into the basket (sorted paits only)
+// sock_basket.length() // function to get the number of socks in the basket
+
+integer sockOneP1
+integer sockTwoP1
+
+integer sockOneP2
+integer sockTwoP2
+
+
+while sock_basket.length() > 0
+    sockOneP1 = sock_basket.from_basket() // Sock with Random Color
+    sockTwoP1 = sock_basket.from_basket() // Sock with Random Color
+
+    sockOneP2 = sock_basket.from_basket() // Sock with Random Color
+    sockTwoP2 = sock_basket.from_basket() // Sock with Random Color
+
+    // wait for the basket to be empty
+    if sockOneP1 == sockTwoP1
+        pair1 = sockOneP1 + sockTwoP1 : Pair with Random Color
+        sock_basket.put_pair(pair1) // put the pair back in the sorted basket if they match
+    else
+        put sockOneP1 to basket
+        put sockTwoP1 to basket
+
+    if sockOneP2 == sockTwoP2
+        pair2 = sockOneP2 + sockTwoP2 : Pair with White
+        sock_basket.put_pair(pair2) // put the pair back in the sorted basket if they match
+    else
+        put sockOneP2 to basket // put the sock back in the unsorted basket
+        put sockTwoP2 to basket // put the sock back in the unsorted basket
+
+
+// Exercise 2:  From decimal to binary! (Digital electronics and computer engineering)
+
+// Part 1: Conceptualization
+// To convert a decimal number to binary, we need to divide the decimal number by 2 and keep track of the remainders. if there is a remainder, we add 1 to the binary number, if there isn't we add 0.
+
+// Part 2: Writing pseudo-code
+
+integer decimalNumber
+integer remainder
+
+decimalNumber = Get next input // Grab user input for the decimal number
+
+while decimalNumber > 0 // Loop solong as the decimal number is greater than 0
+   remainder = decimalNumber % 2 // Get the remainder of the decimal number divided by 2
+   decimalNumber = decimalNumber / 2 // Divide the decimal number by 2
+   Put remainder to output // Output the remainder aka the binary number
