@@ -11,8 +11,8 @@ as the 5 nanometer or the 4 nanometer, which are the current smallest known tran
 
 ## Question 2: Did you agree with the premise of the article?  Why or why not?  Be specific.  
 
-I do agree with the premise that Moore's Law is ending, and that we should come up with a better alternative. I belive Moore's Law was a great way to keep the big 
-semiconductor companies in a competative market and kept them innovating, but that coming to an end will likely result in the companies slowing down their progress
+I do agree with the premise that Moore's Law is ending, and that we should come up with a better alternative. I believe Moore's Law was a great way to keep the big 
+semiconductor companies in a competitive market and kept them innovating, but that coming to an end will likely result in the companies slowing down their progress
 down and getting lazy with it. 
 
 ## Question 3: What do you think the future holds, in light of the premise of the article?
@@ -25,10 +25,13 @@ innovate in other areas and come up with new technologies that will be more bene
 
 ## Question 1: Where do you think the influence has already been felt?
 
-The article mentions that semiconductor developers are looking at optimazations like 3D stacking and other technological advancements to keep up with the demand for
+The article mentions that semiconductor developers are looking at optimizations like 3D stacking and other technological advancements to keep up with the demand for
 more powerful and efficient chips. A recent example would be the 3D Ryzen chips that AMD has been developing, which are 4 nanometers in size (transistors) and are
 more powerful and efficient than the previous generation of chips.
 
 ## Question 2: How is it impacting the technology? You can comment about its implications to hardware design, programming paradigms, etc. Be thoughtful and be specific!
 
-We are coming up with new ways of going about designing the chips that don't simply involve putting more transistors on a single waffer. We are looking at 3D stacking, more efficiency regarding cache, among others. There are also now languages that are more memory safe and allow developers to develop application and software that are more optimized than ever before. Such as the example given within the articl about a C Language program running 61,463.41 times faster than the original program that was written in python. Developments like that really astound me and show that we are moving in the right direction.
+We are coming up with new ways of going about designing the chips that don't simply involve putting more transistors on a single wafer. We are looking at 3D stacking, 
+more efficiency regarding cache, among others. There are also now languages that are more memory safe and allow developers to develop application and software that are 
+more optimized than ever before. Such as the example given within the article about a C Language program running 61,463.41 times faster than the original 
+program that was written in python. Developments like that really astound me and show that we are moving in the right direction.

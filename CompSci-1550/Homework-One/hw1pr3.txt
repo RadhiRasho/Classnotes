@@ -99,7 +99,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 '0x29a'
 >>> 
 
-// The Mathy way of doing it
+// The Math-y way of doing it
 // (a) 215_10 to base 8
 // 215 / 8 = 26 remainder 7
 // 26 / 8 = 3 remainder 2
@@ -107,7 +107,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 // So, 215_10 = 327_8
 
 // (b) 666_10 to base 16
-// 666 / 16 = 41 remainder 10 (A), the number 10 in hexidecimal is the letter A
+// 666 / 16 = 41 remainder 10 (A), the number 10 in hexadecimal is the letter A
 // 41 / 16 = 2 remainder 9
 // 2 / 16 = 0 remainder 2
 // So, 666_10 = 29A_16
@@ -128,7 +128,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 2816892928
 >>> 
 
-// The Mathy way of doing it
+// The Math-y way of doing it
 // (a) Convert the following sequence of 32 bits to decimal:
 // 0b01001001100111101000000000000000
      ^ this first bit tells us it's positive

@@ -72,7 +72,7 @@ pair1 = sock1 + sock2 : Pair with Red    // success, both are red socks!
 pair2 = sock3 + sock4 : Pair with White  // success, both are white socks!
 pair3 = sock1 + sock3                    // FAILS ... mismatched socks!
 
-// Acomplishment: This code defines two types of socks (red and white) and a sock pair. It then randomly selects socks from a basket and pairs them based on color.
+// Accomplishment: This code defines two types of socks (red and white) and a sock pair. It then randomly selects socks from a basket and pairs them based on color.
 // Does it solve the problem?: No, the code only accounts for one person, and also two different colors. Where as there is the possibility of multiple different colors and multiple people accessing the basket.
 // Additional Elements?: More colors, more people, and a mutex to make sure only one person accesses the basket/bundle at a time.
 
@@ -80,7 +80,7 @@ pair3 = sock1 + sock3                    // FAILS ... mismatched socks!
 
 // utilize sock_basket // include the sock basket module
 // sock_basket.from_basket() // function to get a sock from the basket
-// sock_basket.put_pair() // function to put a pair back into the basket (sorted paits only)
+// sock_basket.put_pair() // function to put a pair back into the basket (sorted pairs only)
 // sock_basket.length() // function to get the number of socks in the basket
 
 integer sockOneP1
@@ -125,7 +125,7 @@ integer remainder
 
 decimalNumber = Get next input // Grab user input for the decimal number
 
-while decimalNumber > 0 // Loop solong as the decimal number is greater than 0
+while decimalNumber > 0 // Loop so long as the decimal number is greater than 0
    remainder = decimalNumber % 2 // Get the remainder of the decimal number divided by 2
    decimalNumber = decimalNumber / 2 // Divide the decimal number by 2
    Put remainder to output // Output the remainder aka the binary number
