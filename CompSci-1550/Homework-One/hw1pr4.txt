@@ -1,5 +1,0 @@
-# CSCI 1550: HW 1, Problem 4 
-# Filename: hw1pr4.txt 
-# Name(s): Radhi Rasho
-
-# Exercise 1: Checking the truth table for a 2-input AND-gate

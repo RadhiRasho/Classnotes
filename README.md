@@ -5,14 +5,14 @@ An repository with my class notes while studying in college/university. Leaving 
 ## Random Fourier Transformation
 
 $$
-\large
+\LARGE
 X(\omega) = \int_{-\infty}^{+\infty} x(t)e^{-j{\omega}t} dt
 $$
 
 ## Random Inverse Fourier Transformation
 
 $$
-\large
+\LARGE
 x(t) = \frac{1}{2\pi} \int_{-\infty}^{+\infty} X(\omega)e^{j{\omega}t} d\omega
 $$
 
