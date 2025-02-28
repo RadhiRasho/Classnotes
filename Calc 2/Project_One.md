@@ -31,7 +31,7 @@ $$
 
 For this project $\large \mu = 0$ and $\large \sigma = 1$.
 
-### $A)$ Graph of $\large f$. Find the interval on which the $\large f$ is increasing, the interval on which $\large f$ is decreasing, and any extreme values and where they occur.
+### $A)$ Graph of $\large f$. Find the interval on which the $\large f$ is increasing, the interval on which $\large f$ is decreasing, and any extreme values and where they occur
 
 To determin the intervals on which $\large f$ is increasing and decreasing, we need to find the derivative of $\large f$.
 
@@ -45,7 +45,7 @@ $$
 f'(x) = \frac{d}{dx} \left( \frac{1}{\sqrt{2\pi}} \right) e^{-\frac{x^2}{2}} + \frac{1}{\sqrt{2\pi}} \frac{d}{dx} \left( e^{-\frac{x^2}{2}} \right) = -\frac{x}{\sqrt{2\pi}} e^{-\frac{1}{2}x^2}
 $$
 
-To find the critical points, we need to solve the equation $\large f'(x) = 0$. 
+To find the critical points, we need to solve the equation $\large f'(x) = 0$.
 
 $$
 \Large
@@ -76,7 +76,7 @@ Therefore, $\large f$ is increasing on the interval $\large (-\infty, 0)$ and de
 
 ### Finding Local Maximums and Minimums
 
-Typically you'd go on to find the second derivative of $\large f$ and use the second derivative test to find the local maximums and minimums. 
+Typically you'd go on to find the second derivative of $\large f$ and use the second derivative test to find the local maximums and minimums.
 
 However, since we know that $\large f$ has an increasing interval at $\large (-\infty, 0)$ and a decreasing interval at $\large (0, \infty)$, we can conclude that $\large f$ has a local maximum at $\large x = 0$, this would also act as the Absolute Maximum. We can also conclude that there is no local minimum nor is there an Absolute Minimum.
 
@@ -108,5 +108,4 @@ $$
 
 From the information provided, we can see that $\large f(x)$ is always less than $\large e^{-\frac{x}{2}}$ for $\large x > 1$. We also know that the integral of $\large e^{-\frac{x}{2}}$ from $\large 1$ to $\large \infty$ approaches 0 as $\large b$ approaches $\large \infty$.
 
-Therefore, we can conclude that the area under the curve of $\large f$ approaches 1 as $\large n$ approaches $\large \infty$. Meaning that $\large \int_{-\infty}^{\infty} f(x) dx = 1$.
-
+Therefore, we can conclude that the area under the curve of $\large f$ approaches 1 as $\large n$ approaches $\large \infty$, meaning that $\large \int_{-\infty}^{\infty} f(x) dx = 1$.
