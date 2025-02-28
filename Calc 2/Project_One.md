@@ -72,3 +72,14 @@ Therefore, $\large f$ is increasing on the interval $\large (-\infty, 0)$ and de
 Typically you'd go on to find the second derivative of $\large f$ and use the second derivative test to find the local maximums and minimums. 
 
 However, since we know that the has a increasing interval at $\large (-\infty, 0)$ and a decreasing interval at $\large (0, \infty)$, we can conclude that $\large f$ has a local maximum at $\large x = 0$, this would also act as the Absolute Maximum. We can also conclude that there is no local minimum nor is there an Absolute Minimum.
+
+### $B)$ Graph
+
+The graph of $\large f$ is shown below:
+
+![Normal Probability Distribution](https://github.com/RadhiRasho/Classnotes/blob/master/Calc%202/Project_One_Graph.png?raw=true)
+
+Graph of $\large \int_{-n}^{n} f(x)dx$ when $\large n = 1, 2, and \space 3$:
+
+![Graph of the integral](image.png)
+
