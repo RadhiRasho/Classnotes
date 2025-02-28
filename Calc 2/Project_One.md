@@ -81,5 +81,5 @@ The graph of $\large f$ is shown below:
 
 Graph of $\large \int_{-n}^{n} f(x)dx$ when $\large n = 1, 2, and \space 3$:
 
-![Graph of the integral](image.png)
+![Graph of the integral](https://github.com/RadhiRasho/Classnotes/blob/master/Calc%202/Project_One_Integral_Graph.png?raw=true)
 
