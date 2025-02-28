@@ -15,7 +15,7 @@ Simplifying the function:
 
 $$
 \Large
-f(x) = \frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}, \space as \space \mu = 0 \space and \space \sigma = 1
+f(x) = \frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}}, \, as \, \mu = 0 \, and \, \sigma = 1
 $$
 
 The function above is called the Normal probability density function with the mean $\large \mu$ and the standard deviation $\large \sigma$. The number $\large \mu$ tells where the distribution is centered, and $\large \sigma$ measures the "scatter" around the mean.
@@ -86,11 +86,11 @@ The graph of $\large f$ is shown below:
 
 ![Normal Probability Distribution](https://github.com/RadhiRasho/Classnotes/blob/master/Calc%202/Project_One_Graph.png?raw=true)
 
-Graph of $\large \int_{-n}^{n} f(x)dx$ when $\large n = 1, 2, and \space 3$:
+Graph of $\large \int_{-n}^{n} f(x)dx$ when $\large n = 1, 2, and \, 3$:
 
 ![Graph of the integral](https://github.com/RadhiRasho/Classnotes/blob/master/Calc%202/Project_One_Integral_Graph.png?raw=true)
 
-In the image above you'll see the graph of $\large f$ and the graph of $\large \int_{-n}^{n} f(x)dx$ when $\large n = 1, 2, and \space 3$. As $\large n$ increases, the area under the curve of $\large f$ increases and approaches 1.
+In the image above you'll see the graph of $\large f$ and the graph of $\large \int_{-n}^{n} f(x)dx$ when $\large n = 1, 2, and \, 3$. As $\large n$ increases, the area under the curve of $\large f$ increases and approaches 1.
 
 ### $C)$ Give a convincing argument that $\large \int_{-\infty}^{\infty} f(x)dx = 1$
 
@@ -98,12 +98,12 @@ Information provided (hint):
 
 $$
 \Large
-0 < f(x) < e^{-\frac{x}{2}} \space for \space x > 1 \space and \space b > 1
+0 < f(x) < e^{-\frac{x}{2}} \, for \, x > 1 \, and \, b > 1
 $$
 
 $$
 \Large
-\int_{1}^{\infty} e^{-\frac{x}{2}}dx \rightarrow 0 \space as \space b \rightarrow \infty
+\int_{1}^{\infty} e^{-\frac{x}{2}}dx \rightarrow 0 \, as \, b \rightarrow \infty
 $$
 
 From the information provided, we can see that $\large f(x)$ is always less than $\large e^{-\frac{x}{2}}$ for $\large x > 1$. We also know that the integral of $\large e^{-\frac{x}{2}}$ from $\large 1$ to $\large \infty$ approaches 0 as $\large b$ approaches $\large \infty$.
