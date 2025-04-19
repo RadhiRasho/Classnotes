@@ -240,7 +240,7 @@ $$
 
 $$
 \Large
- \frac{C_0 e^{-kt_0}(1 - e^{-nkt_0})}{1 - e^{-kt_0}} > \frac{4.75415}{2}
+ \frac{C_0 e^{-kt_0}(1 - e^{-nkt_0})}{1 - e^{-kt_0}} > \frac{9.5083}{2}
 $$
 
 To solve this inequality, we can start by substituting in the values we know:
