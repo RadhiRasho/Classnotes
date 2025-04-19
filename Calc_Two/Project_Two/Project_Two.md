@@ -1,3 +1,10 @@
+---
+title: "Math 1700 - Project 2"
+Author: "Radhi Rasho"
+date: "04/19/2025"
+description: "A project exploring drug concentration models using series"
+keywords: ["calculus", "series", "pharmacokinetics", "drug dosage"]
+---
 # Math 1700 - Project 2
 
 ## Introduction
@@ -7,7 +14,7 @@ This project explores the use of Series in safe and effective dosage of drugs ca
 ## Model for Effect of Repeated Doses
 
 $$
-\LARGE
+\Large
  R_n = C_0e^{-kt_0} + C_0e^{-2kt_0} + \ldots + C_0e^{-nkt_0}
 $$
 
