@@ -84,11 +84,11 @@ However, since we know that $\large f$ has an increasing interval at $\large (-\
 
 The graph of $\large f$ is shown below:
 
-![Normal Probability Distribution](https://github.com/RadhiRasho/Classnotes/blob/master/Calc%202/Project_One_Graph.png?raw=true)
+![Normal Probability Distribution](https://github.com/RadhiRasho/Classnotes/blob/master/Calc_Two/Project_One/Project_One_Graph.png?raw=true)
 
 Graph of $\large \int_{-n}^{n} f(x)dx$ when $\large n = 1, 2, and \, 3$:
 
-![Graph of the integral](https://github.com/RadhiRasho/Classnotes/blob/master/Calc%202/Project_One_Integral_Graph.png?raw=true)
+![Graph of the integral](https://github.com/RadhiRasho/Classnotes/blob/master/Calc_Two/Project_One/Project_One_Integral_Graph.png?raw=true)
 
 In the image above you'll see the graph of $\large f$ and the graph of $\large \int_{-n}^{n} f(x)dx$ when $\large n = 1, 2, and \, 3$. As $\large n$ increases, the area under the curve of $\large f$ increases and approaches 1.
 
