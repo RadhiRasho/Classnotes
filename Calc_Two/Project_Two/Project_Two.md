@@ -17,7 +17,7 @@ Where:
 - $\large k$ is the elimination constant ($h^{-1}$)
 - $\large t_0$ is the time between doses ( $h$ )
 
-## Graph of Concentration vs Time Pertaining to a Single Dose
+The graph below shows the concentration of the drug in the bloodstream over time. The x-axis represents time in hours, and the y-axis represents the concentration of the drug in mg/mL. The graph shows how the concentration of the drug decreases over time after each dose.
 
 ![Concentration VS Time Graph](https://github.com/RadhiRasho/Classnotes/blob/master/Calc_Two/Project_Two/Project_Two_Concentration_VS_Time_Graph.png?raw=true)
 
