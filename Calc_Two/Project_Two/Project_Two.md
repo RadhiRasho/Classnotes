@@ -1,12 +1,10 @@
 ---
-title: "Math 1700 - Project 2"
-Author: "Radhi Rasho"
-date: "04/19/2025"
+title: Math 1700 - Project 2
+author: Radhi Rasho
+date: 04/19/2025
 description: "A project exploring drug concentration models using series"
 keywords: ["calculus", "series", "pharmacokinetics", "drug dosage"]
 ---
-# Math 1700 - Project 2
-
 ## Introduction
 
 This project explores the use of Series in safe and effective dosage of drugs calculations. When a single dose of drug is administered, the drug concentration in the bloodstream can be modeled as a series. The dosage is lost slowly over time, and the concentration can be modeled as a series of decreasing terms.
