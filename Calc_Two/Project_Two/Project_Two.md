@@ -19,4 +19,4 @@ Where:
 
 ## Graph of Concentration vs Time Pertaining to a Single Dose
 
-![Concentration VS Time Graph](Project_Two_Concentration_VS_Time_Graph.png)
+![Concentration VS Time Graph](https://github.com/RadhiRasho/Classnotes/blob/master/Calc2/Project_Two/Project_Two_Concentration_VS_Time_Graph.png)
