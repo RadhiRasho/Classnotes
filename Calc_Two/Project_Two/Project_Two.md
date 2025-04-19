@@ -23,9 +23,9 @@ Where:
 
 ## Questions to Answer
 
-### $A)$ Write $R_n$ in closed form as single fraction, and find $R = \lim_{n \to \infty} R_n$.
+### $A)$ Write $R_n$ in closed form as single fraction, and find $R = \lim_{n \to \infty} R_n$
 
-The given expression for $R_n$ is: 
+The given expression for $R_n$ is:
 
 $$
 \Large
@@ -57,7 +57,7 @@ Where:
 - $\large r = x = e^{-kt_0}$ is the common ratio
 - $\large n$ is the number of terms.
 
-From here, we can start substituting our values into the formula: 
+From here, we can start substituting our values into the formula:
 
 $$
 \Large
@@ -84,7 +84,7 @@ $$
  R = \lim_{n \to \infty} R_n = \lim_{n \to \infty} \frac{C_0 e^{-kt_0}(1 - e^{-nkt_0})}{1 - e^{-kt_0}}
 $$
 
-Sense $\large k \gt 0$ and $\large t_0 \gt 0$, the term $\large e^{-kt_0}$ is a positive number. Meaning it will be in the following interval: $\large 0 \lt e^{-kt_0} \lt 1$. 
+Sense $\large k > 0$ and $\large t_0 > 0$, the term $\large e^{-kt_0}$ is a positive number. Meaning it will be in the following interval: $\large 0 < e^{-kt_0} < 1$.
 
 As $\large n \to \infty$, the term $\large e^{-nkt_0} \to 0$, because it's a number between 0 and 1 raised to a large positive power, meaning it gets smaller the larger $\large n$ becomes.
 
@@ -189,7 +189,7 @@ $$
 
 Using the calculations above, I was able to conclude that the difference between $\large R$ and $\large R_{10}$ is very small, which means that $\large R_{10}$ is an extremely good estimate of $\large R$. Meaning that after 10 doses, the concentration of the drug in the bloodstream is very close to the long-term concentration/steady state value.
 
-### $C)$ If $k = 0.01h^{-1}$, $t_0 = 10h$, find the smallest n such that $R_n > (\frac{1}{2})R$. Use $C_0 = 1(mg/mL)$.
+### $C)$ If $k = 0.01h^{-1}$, $t_0 = 10h$, find the smallest n such that $R_n > (\frac{1}{2})R$. Use $C_0 = 1(mg/mL)$
 
 What we are given:
 
@@ -225,7 +225,6 @@ $$
 \Large
  R = 9.5083 \,(mg/mL)
 $$
-
 
 $$
 \Large
